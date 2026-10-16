@@ -1,0 +1,60 @@
+    /* overriding the primary colors */
+
+:root{
+    --bs-body-color:rgb(158, 152, 140);
+
+
+
+    --bs-primary:rgb(218, 131, 146); 
+    /* Primary Color can't be OverRiden (Change the Color itself in the HTML code file) */
+   /* OR */
+
+}
+/* Explicitly Declaring it. */
+/* For Example: */
+ .btn-primary{
+    background-color: var(--bs-primary);
+    border:1px solid var(--bs-primary);
+}
+
+
+
+
+
+
+
+.min-height-image{
+    height: 300px;
+}
+
+.mb-6{
+    margin-bottom:64px;
+}
+
+.mb-7{
+    margin-bottom: 80px;
+}
+
+.mb-8{
+    margin-bottom: 96px;
+}
+
+.mb-9{
+    margin-bottom: 112px;
+}
+
+.mb-10{
+    margin-bottom: 128px;
+}
+
+.mb-11{
+    margin-bottom: 144px;
+}
+
+.mb-12{
+    margin-bottom: 160px;
+}
+
+.bg-color{
+    background-color: #6f42c1;
+}
